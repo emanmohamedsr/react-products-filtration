@@ -42,6 +42,20 @@ div.product .info {
 
 div.product .info button {
     flex: 1;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4c68af;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.product .info button:hover {
+    background-color: #395685;
+}
+
+div.product .info button:focus {
+    outline: none;
 }
 
 div.product .info span.price {

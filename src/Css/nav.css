@@ -17,6 +17,35 @@ nav h1 {
     letter-spacing: 1px;
 }
 
+nav .cart {
+    position: relative;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+nav .cart:hover {
+    transform: scale(1.06);
+}
+
+nav .cart .after-cart {
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -100%;
+    right: -20px;
+    transform: translateY(100%);
+    width: 20px;
+    height: 20px;
+    background-color: rgb(206, 57, 57);
+    border-radius: 50%;
+}
+
 nav ul {
     display: flex;
     padding: 30px;
