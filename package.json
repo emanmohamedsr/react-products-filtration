@@ -5,7 +5,7 @@
 		"url": "git+https://github.com/emanmohamedsr/react-products-filtration.git"
 	},
 	"author": "Your Name <Your Email>",
-	"name": "advice-generator-app",
+	"name": "react-products-filtration",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
